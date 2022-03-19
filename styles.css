@@ -82,9 +82,9 @@ hr {
     color: aliceblue;
 }
 
-.navigation .link-active {
+/* .navigation .link-active {
     font-weight: bold;
-}
+} */
 
 /* header */
 .hero {
@@ -92,23 +92,37 @@ hr {
     padding-top: 5rem;
 }
 
-.hero .hero-img {
+/* .hero .hero-img {
     max-width: 500px;
     display: block;
      margin: auto; 
    
+} */
+.hero .table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero .hero-img{
+    float: right;
+    max-width: 500px;
+    /* display: block; 
+     margin: auto;  */
+    margin-left: 10rem; 
+    margin-right: auto;
 }
 
 .hero .name{
+    font-size: 4.5rem;
+    text-align: left;
     color: var(--primary-color);
 }
 
 
-.hero .hero-heading {
+/* .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
-}
+} */
 
 /* Section */
 .section {
