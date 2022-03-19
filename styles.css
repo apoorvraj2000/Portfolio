@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+:root {
+    --primary-color: #00b3b3;
+    --dark-gray: #999999;
+    --off-white: #d9d9d9;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Fredoka', sans-serif;
+    margin: 0px;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/* spaces */
+.margine-md{
+    margin: 2rem;
+}
+
+/* for simple container */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: aliceblue;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* List */
+.non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* Navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: aliceblue;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .unordered {
+    text-align: right;
+}
+
+.navigation .link {
+    color: aliceblue;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/* header */
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 500px;
+    display: block;
+     margin: auto; 
+   
+}
+
+.hero .name{
+    color: var(--primary-color);
+}
+
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+/* Section */
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .ul {
+    padding-inline-start: 0px;
+}
