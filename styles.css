@@ -175,3 +175,12 @@ hr {
 .work{
     width: 100%;
 }
+
+.flex-profiles{
+    display:flex;
+}
+.pro{
+    width: 100%;
+    padding: 2%;
+}
+
