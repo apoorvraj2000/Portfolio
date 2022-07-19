@@ -33,6 +33,7 @@ hr {
     margin: auto;
 }
 
+
 /* links */
 .link {
     text-decoration: none;
@@ -114,6 +115,7 @@ hr {
 /* Section */
 .section {
     padding: 2rem;
+    
 }
 
 .section h1 {
@@ -161,4 +163,15 @@ hr {
 
 .footer .ul {
     padding-inline-start: 0px;
+}
+
+
+.flex-container{
+    display:flex;
+}
+.company{
+    width: 100%;
+}
+.work{
+    width: 100%;
 }
